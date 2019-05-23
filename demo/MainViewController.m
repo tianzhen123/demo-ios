@@ -17,7 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-}
+    
+    UIView *v = [[UIView alloc]initWithFrame:CGRectMake(self.view.center.x-50, self.view.center.y-50, 100, 100)];
+    
+    v.backgroundColor = [UIColor redColor];
+    
+    self.view.backgroundColor=[UIColor whiteColor];
+    [self.view addSubview: v];
+};
 
 /*
 #pragma mark - Navigation

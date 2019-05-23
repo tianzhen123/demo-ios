@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "JWTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    JWTabBarController * barControl =[[JWTabBarController alloc]init];
+    
+    self.window.rootViewController = barControl;
+    
     return YES;
 }
 

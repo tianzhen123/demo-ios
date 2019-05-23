@@ -15,6 +15,9 @@
 		62DB8BC82295467600ABF8B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DB8BC72295467600ABF8B5 /* main.m */; };
 		62DB8BD22295467600ABF8B5 /* demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DB8BD12295467600ABF8B5 /* demoTests.m */; };
 		62DB8BDD2295467700ABF8B5 /* demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DB8BDC2295467700ABF8B5 /* demoUITests.m */; };
+		62FD8E572296365100FF2280 /* JWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FD8E562296365100FF2280 /* JWTabBarController.m */; };
+		62FD8E5A2296379D00FF2280 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FD8E592296379D00FF2280 /* MainViewController.m */; };
+		62FD8E5D229637B900FF2280 /* SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FD8E5C229637B900FF2280 /* SecViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		62DB8BD82295467700ABF8B5 /* demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62DB8BDC2295467700ABF8B5 /* demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demoUITests.m; sourceTree = "<group>"; };
 		62DB8BDE2295467700ABF8B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62FD8E552296365100FF2280 /* JWTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWTabBarController.h; sourceTree = "<group>"; };
+		62FD8E562296365100FF2280 /* JWTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWTabBarController.m; sourceTree = "<group>"; };
+		62FD8E582296379D00FF2280 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		62FD8E592296379D00FF2280 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		62FD8E5B229637B900FF2280 /* SecViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecViewController.h; sourceTree = "<group>"; };
+		62FD8E5C229637B900FF2280 /* SecViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				62DB8BC32295467600ABF8B5 /* LaunchScreen.storyboard */,
 				62DB8BC62295467600ABF8B5 /* Info.plist */,
 				62DB8BC72295467600ABF8B5 /* main.m */,
+				62FD8E552296365100FF2280 /* JWTabBarController.h */,
+				62FD8E562296365100FF2280 /* JWTabBarController.m */,
+				62FD8E582296379D00FF2280 /* MainViewController.h */,
+				62FD8E592296379D00FF2280 /* MainViewController.m */,
+				62FD8E5B229637B900FF2280 /* SecViewController.h */,
+				62FD8E5C229637B900FF2280 /* SecViewController.m */,
 			);
 			path = demo;
 			sourceTree = "<group>";
@@ -262,8 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62FD8E5D229637B900FF2280 /* SecViewController.m in Sources */,
+				62FD8E572296365100FF2280 /* JWTabBarController.m in Sources */,
 				62DB8BBD2295467500ABF8B5 /* ViewController.m in Sources */,
 				62DB8BC82295467600ABF8B5 /* main.m in Sources */,
+				62FD8E5A2296379D00FF2280 /* MainViewController.m in Sources */,
 				62DB8BBA2295467500ABF8B5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYX636SZFD;
 				INFOPLIST_FILE = demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYX636SZFD;
 				INFOPLIST_FILE = demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
